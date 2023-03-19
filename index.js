@@ -44,7 +44,7 @@ search.addEventListener('click', () => {
                     break;
 
                 case 'Snow':
-                    image.src = 'images/snow.png';
+                    image.src = 'images/snow3.png';
                     break;
 
                 case 'Clouds':
@@ -53,6 +53,14 @@ search.addEventListener('click', () => {
 
                 case 'Haze':
                     image.src = 'images/mist.png';
+                    break;
+                  
+                case 'Drizzle':
+                    image.src = 'images/drizzle.png';
+                    break;
+                
+                case 'Thunderstorm':
+                    image.src = 'images/thunderstorm.png';
                     break;
 
                 default:
